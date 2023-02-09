@@ -15,10 +15,10 @@ class App extends Component {
       <div className="bg-gray-100 transition duration-300 px-8">
         <NavBar />
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact/>}/>
+          <Route exact path="/" element={<About />} />
+          <Route exact path="skills" element={<Skills />} />
+          <Route exact path="projects" element={<Projects />} />
+          <Route exact path="contact" element={<Contact/>}/>
         </Routes>
         <div className="container mx-auto pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light">
           <Footer />
