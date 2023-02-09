@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="bg-gray-100 transition duration-300 px-8">
         <NavBar />
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route exact path="/" element={<About />} />
           <Route exact path="skills" element={<Skills />} />
           <Route exact path="projects" element={<Projects />} />
