@@ -10,7 +10,7 @@ class Skills extends Component {
           <div className='border-t-2 border-teal-600 pt-5 mt-5 pb-5'>
             <h1 className='text-5xl font-light text-teal-600 tracking-[.1em] leading-normal'>Tecnologias com as quais trabalho</h1>
             <p className='text-gray-600 tracking-[.1em] mt-6 leading-loose text-base'>
-              Minha formação em desenvolvimento web foi construída principalmente com o conteúdo do curso da Trybe e com alguns cursos da plataforma Frontend Masters. Atualmente estou estudando Python e aqui estão algumas tecnologias com as quais venho trabalhado recentemente:
+              Minha formação em desenvolvimento web foi construída principalmente com o conteúdo do curso da Trybe, com alguns cursos da plataforma Frontend Masters. Atualmente estou estudando Python e aqui estão algumas tecnologias com as quais venho trabalhado recentemente:
             </p>
           </div>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-8 pb-8'></div>
@@ -19,9 +19,10 @@ class Skills extends Component {
               <h4 className='uppercase text-teal-600 text-xl font-bold pl-4 mb-0'>Foco</h4>
               <div className='border-l-2 border-l-teal-600 pl-5 ml-4 pt-0 mt-0'>
                 <ul className='text-gray-700 mt-2 leading-loose tracking-[.1em]'>
-                  <li>Front-End</li>
+                  <li>Frontend</li>
                   <li>Testes/QA</li>
                   <li>Ciências de Dados</li>
+                  <li>Backend</li>
                 </ul>
               </div>
             </div>

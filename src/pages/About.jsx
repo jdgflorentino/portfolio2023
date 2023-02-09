@@ -71,7 +71,7 @@ class About extends Component {
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, delay: 1 }} exit={{ opacity: 0 }} className='border-t-2 border-teal-600 pt-5 mt-5 pb-5'>
           <h2 className='uppercase text-teal-600 tracking-[.25em]'>Um pouco sobre mim</h2>
-          <p className='text-gray-700 tracking-[.1em] mt-6 text-sm md:text-base  lg:text-lg leading-loose'>
+          <p className='text-gray-700 tracking-[.1em] mt-6 text-sm md:text-base lg:text-lg leading-loose'>
             Meu nome é Jéssica, nascida e criada no interior de São Paulo. Sou graduada em Engenharia de Bioprocessos e Biotecnologia pela UNESP/Botucatu e trabalho como perita contábil desde 2017, prestando serviços para advogados e escritórios. No momento estou em transição de carreira para área
             de desenvolvimento web e buscando uma posição como desenvolvedora Frontend.
           </p>

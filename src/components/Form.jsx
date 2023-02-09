@@ -16,7 +16,7 @@ export function Form() {
       email: values.email,
       message: values.message,
     };
-    emailjs.send('service_23l09ft', 'template_a9wzdyo', templateParams, 'EpCbBOy09fprpRT_V').then(
+    emailjs.send('service_3xwys82', 'template_oydzw9a', templateParams, 'EpCbBOy09fprpRT_V').then(
       (response) => {
         if (response.status === 200) {
           reset();
